@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <h1>Web Development Course</h1>
+    <p>
+      Join our comprehensive web development course and master HTML, CSS,
+      JavaScript, and more!
+    </p>
+    <form action="">
+      <fieldset>
+        <legend>Register Now</legend>
+        <label for="fullname"> Full Name:</label>
+        <input type="text" name="fullName" id="fullname" required />
+        <label for="email"> Email Address: </label>
+        <input type="email" name="email" id="email" required />
+        <label for="courses">Course Type: </label>
+        <select id="courses">
+          <option value="">Beginner-Basic of Web development</option>
+          <option value="Intermediate-Fronted webdevelopment">
+            Intermediate-Fronted webdevelopment
+          </option>
+          <option value="Advance-Full Stack Webdevelopment">
+            Advance-Full Stack Webdevelopment
+          </option>
+        </select>
+        <label>Are you a member of our academy? </label>
+        <label>
+          <input type="radio" name="academy" value="yes" class="radio" />
+          yes
+        </label>
+        <label>
+          <input type="radio" name="academy" value="no" class="radio" />
+          No
+        </label>
+        <input type="submit" id="submit" value="Register" />
+      </fieldset>
+    </form>
+  </body>
+</html>
